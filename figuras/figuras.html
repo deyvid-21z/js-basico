@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando Triágulos</title>
+</head>
+<body>
+    <h1>
+        Figuras Geomètricas
+    </h1>
+
+    <form>
+        <label>Lado del cuadrado</label>
+        <input type="number" id="nudLadoTriangulo1"> <br>
+        
+        <label>Lado del cuadrado</label>
+        <input type="number" id="nudLadoTriangulo2"> <br>
+
+        <label>Lado del cuadrado</label>
+        <input type="number" id="nudLadoTriangulo3"> <br>
+
+        <input type="button" value="Calcular" id="btnCalcular" onclick="dibujoTriangulo()">
+    </form>
+    <canvas id="spcLienzo" height="500" width="500"></canvas>
+    <script src="figuras.js"></script>
+</body>
+</html>
